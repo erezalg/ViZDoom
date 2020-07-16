@@ -7,7 +7,7 @@ ViZDoom is based on [ZDoom](https://github.com/rheit/zdoom) to provide the game 
 
 ![vizdoom_deadly_corridor](http://www.cs.put.poznan.pl/mkempka/misc/vizdoom_gifs/vizdoom_corridor_segmentation.gif)
 
-##Trains integration
+## Trains integration
 This repo integrates [Allegro Trains](https://github.com/allegroai/trains) for tracking experiments, tracking maps and depth buffers and end of
 episode statstics and for convenient hyperparameter optimization interface.
 The modified file is mainly learning_pytorch.py
