@@ -7,6 +7,10 @@ ViZDoom is based on [ZDoom](https://github.com/rheit/zdoom) to provide the game 
 
 ![vizdoom_deadly_corridor](http://www.cs.put.poznan.pl/mkempka/misc/vizdoom_gifs/vizdoom_corridor_segmentation.gif)
 
+##Trains integration
+This repo integrates [Allegro Trains](https://github.com/allegroai/trains) for tracking experiments, tracking maps and depth buffers and end of
+episode statstics and for convenient hyperparameter optimization interface.
+The modified file is mainly learning_pytorch.py
 
 ## Features
 - Multi-platform,
@@ -124,7 +128,6 @@ Useful parts:
 - [Omgifol](https://github.com/devinacker/omgifol) - nice Python library for manipulating Doom maps.
 - [NavDoom](https://github.com/agiantwhale/navdoom) - Maze navigation generator for ViZDoom (similar to DeepMind Lab).
 - [MazeExplorer](https://github.com/microsoft/MazeExplorer) - More sophisticated maze navigation generator for ViZDoom. 
-- [ViZDoomGym](https://github.com/shakenes/vizdoomgym) OpenAI Gym Wrapper for ViZDoom. 
 
 ## Contributions
 
